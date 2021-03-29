@@ -15,7 +15,7 @@
  *
  * 3-29-2021    This code has been modified. Some spots have been removed,
  *              the position of the orientation data text is changed and
- *              the position of the remaining spots responds to orientation
+ *              the position of the remaining spot responds to the orientation
  *              of the device.
  */
 
