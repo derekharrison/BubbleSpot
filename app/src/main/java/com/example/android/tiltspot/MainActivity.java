@@ -203,8 +203,8 @@ public class MainActivity extends AppCompatActivity
         }
 
         // Set location spot
-        mSpotTop.setX(screenWidth/2 + roll * screenWidth);
-        mSpotTop.setY(screenHeight/2 - pitch * screenHeight);
+        mSpotTop.setX(screenWidth/2 - roll * screenWidth);
+        mSpotTop.setY(screenHeight/2 + pitch * screenHeight);
 
         // Fill in the string placeholders and set the textview text.
         mTextSensorAzimuth.setText(getResources().getString(
